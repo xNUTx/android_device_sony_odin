@@ -40,5 +40,11 @@ BOARD_HARDWARE_CLASS += device/sony/odin/cmhw
 
 TARGET_DISPLAY_GAMMA_DISABLED := true
 
+#CWM
+TARGET_RECOVERY_LCD_BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
+
+#PHILZ
+TARGET_RECOVERY_NEEDS_SPECIFIC_DIM_VALUE := 85
+
 #TWRP
 TW_BRIGHTNESS_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
