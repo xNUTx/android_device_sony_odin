@@ -49,3 +49,4 @@ TARGET_RECOVERY_NEEDS_SPECIFIC_DIM_VALUE := 85
 
 #TWRP
 TW_BRIGHTNESS_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
+TW_SECONDARY_BRIGHTNESS_PATH := /sys/class/leds/lm3533-lcd-bl-2/brightness
